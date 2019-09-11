@@ -1,0 +1,23 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="logindiv">
+            <label for="fname">First Name</label>
+            <input id="fname" name="fname" type="text"/>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="lname" type="text"/>
+            <select id="lang">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+            </select>
+            <label class="formal_radio" for="formal_radio">Formal Greeting?</label>
+            <input class="formal_radio" id="formal_radio" name="formal_radio"  type="checkbox"/>
+            <input type="button" value="Login" id="login" onclick="return greet_user()" />
+        </div>
+        <h1 id='greeting'></h1>
+        <script src="Greetr.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
